@@ -123,7 +123,7 @@ function saveHighscore() {//saves the persons score timer when all questions ans
     highscores.push(newScore);
     window.localStorage.setItem('highscores', JSON.stringify(highscores));
 
-    window.location.href = 'highscores.html';//go to score page when entered
+    window.location.href = 'Score.html';//go to score page when entered
   }
 }
 
